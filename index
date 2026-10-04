@@ -3,7 +3,6 @@ import json
 import urllib.request
 from http.server import BaseHTTPRequestHandler
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN")
 
 
 def telegram(method, data):
